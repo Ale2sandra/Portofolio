@@ -528,6 +528,23 @@ ul {
         margin-left: 0.5rem;
     }
 }
+.experience-section .section-header {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ensures it sticks to the left */
+    margin-bottom: 2rem;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 #projects {
     background: linear-gradient(to right, #fff3e8, #ffe8d5);
     padding: 100px 20px;
